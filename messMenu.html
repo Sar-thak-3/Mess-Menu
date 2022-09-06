@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="messMenu.css">
+</head>
+
+<body>
+    <p class="heading">It's your Menu, decide it yourself !</p>
+    <form action="/action.php" id="form">
+        <div class="your-info">
+            <div class="sid">
+                <label class="sid-label" for="sid">Enter Your SID:
+                    <input type="text" class="sid-text marg" placeholder="XXXXXXXX">
+                </label>
+            </div>
+            <div class="branch">
+                <label for="branch">Branch
+                    <select class="marg" name="college-branch" id="college-branch">
+                        <option value="cse">Computer Science Engineering</option>
+                        <option value="ece">Electronics and Communication Engineering</option>
+                        <option value="ee">Electrical Engineering</option>
+                        <option value="ae">Aerospace Engineering</option>
+                        <option value="me">Mechanical Engineering</option>
+                        <option value="ce">Civil Engineering</option>
+                        <option value="me">Mettalurgical Engineering</option>
+                        <option value="pe">Production Engineering</option>
+                    </select>
+            </div>
+            </label>
+            <div class="mail">
+                <label for="gmail">PEC gmail:
+                    <input type="text" class="gmail-text marg" placeholder="...@pec.edu.in">
+                </label>
+            </div>
+            <div class="number">
+                <label for="phone-no">Phone Number:
+                    <input type="tel" class="phone-text marg" placeholder="XXXXXXXXXX">
+                </label>
+            </div>
+        </div>
+        <div class="foodhabit">
+            <label for="veg">Vegetarian
+                <input type="radio" name="food" class="veg marg" id="veg">
+            </label>
+            <label for="non-veg">Non-Vegetarian
+                <input type="radio" name="food" class="veg marg" id="non-veg">
+            </label>
+        </div>
+    </form>
+
+    <div class="old-menu">
+        <p>Kindly refer to Old Menu to fill up the choices!.</p>
+        <table>
+            <tr class="rows">
+                <th></th>
+                <th>Breakfast</th>
+                <th>Lunch</th>
+                <th>Supper</th>
+                <th>Dinner</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Aloo Prantha</button>
+                    <button type="button" class="btn btn-outline-info">Chai/Milk</button>
+                    <button type="button" class="btn btn-outline-info">Eggs/Banana</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Rajma</button>
+                    <button type="button" class="btn btn-outline-info">Rice</button>
+                    <button type="button" class="btn btn-outline-info">Boondi Raita</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">French Fries/Mattri</button>
+                    <button type="button" class="btn btn-outline-info">Coffee</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Chilli Paneer/Chicken</button>
+                    <button type="button" class="btn btn-outline-info">Arhar dal</button>
+                    <button type="button" class="btn btn-outline-info">Gulab Jamun</button>
+                </td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Paneer Prantha</button>
+                    <button type="button" class="btn btn-outline-info">Chai/Milk</button>
+                    <button type="button" class="btn btn-outline-info">Eggs/Banana</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Chole</button>
+                    <button type="button" class="btn btn-outline-info">Rice</button>
+                    <button type="button" class="btn btn-outline-info">Mix Raita</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Bread Pakoda</button>
+                    <button type="button" class="btn btn-outline-info">Chai</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Ghiya/Kadoo</button>
+                    <button type="button" class="btn btn-outline-info">Moong dal</button>
+                    <button type="button" class="btn btn-outline-info">Halwa</button>
+                </td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Poha</button>
+                    <button type="button" class="btn btn-outline-info">Chai/Milk</button>
+                    <button type="button" class="btn btn-outline-info">Eggs/Banana</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Dal Makhni</button>
+                    <button type="button" class="btn btn-outline-info">Rice</button>
+                    <button type="button" class="btn btn-outline-info">Boondi Raita</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Samosa</button>
+                    <button type="button" class="btn btn-outline-info">Chai</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Malai Kofta</button>
+                    <button type="button" class="btn btn-outline-info">Yellow dal</button>
+                    <button type="button" class="btn btn-outline-info">Icecream</button>
+                </td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Pyaz Prantha</button>
+                    <button type="button" class="btn btn-outline-info">Chai/Milk</button>
+                    <button type="button" class="btn btn-outline-info">Eggs/Banana</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Kadi</button>
+                    <button type="button" class="btn btn-outline-info">Rice</button>
+                    <button type="button" class="btn btn-outline-info">Aaloo</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Maggi/Macroni</button>
+                    <button type="button" class="btn btn-outline-info">Chai</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Mix Veg</button>
+                    <button type="button" class="btn btn-outline-info">Yellow Dal</button>
+                    <button type="button" class="btn btn-outline-info">Rasgulla</button>
+                </td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Gobhi Prantha</button>
+                    <button type="button" class="btn btn-outline-info">Chai/Milk</button>
+                    <button type="button" class="btn btn-outline-info">Eggs/Banana</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Chana</button>
+                    <button type="button" class="btn btn-outline-info">Rice</button>
+                    <button type="button" class="btn btn-outline-info">Mix Raita</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Patties</button>
+                    <button type="button" class="btn btn-outline-info">Coffee</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Shahi Paneer/Egg curry</button>
+                    <button type="button" class="btn btn-outline-info">Dhuli Moong</button>
+                    <button type="button" class="btn btn-outline-info">Custard</button>
+                </td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Aloo Puri</button>
+                    <button type="button" class="btn btn-outline-info">Chai/Milk</button>
+                    <button type="button" class="btn btn-outline-info">Eggs/Banana</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Veg Biryani</button>
+                    <button type="button" class="btn btn-outline-info">Raita</button>
+                </td>
+                <td>-</td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Manchurian</button>
+                    <button type="button" class="btn btn-outline-info">Dal Makhni</button>
+                    <button type="button" class="btn btn-outline-info">Ice cream</button>
+                </td>
+            </tr>
+            <tr>
+                <th>Sunday</th>
+                <td><button type="button" class="btn btn-outline-info">Aloo Pyaz Prantha</button>
+                    <button type="button" class="btn btn-outline-info">Chai/Milk</button>
+                    <button type="button" class="btn btn-outline-info">Eggs/Banana</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Chole</button>
+                    <button type="button" class="btn btn-outline-info">Bhature</button>
+                    <button type="button" class="btn btn-outline-info">Chai</button>
+                </td>
+                <td>-</td>
+                <td>
+                    <button type="button" class="btn btn-outline-info">Baingan</button>
+                    <button type="button" class="btn btn-outline-info">Mix dal</button>
+                    <button type="button" class="btn btn-outline-info">Kheer</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="disclaimers">
+        <P>Disclaimer:</P>
+        <ul>
+            <li>** One dish is allowed only one day **</li>
+            <li>** Some preset dishes are already selected, don't renove them! **</li>
+            <li>** Kindly select the dishes referring to old menu and if any dish is not liked by you then select
+                another dish on same day **</li>
+            <li>** Dish selected by majority will be chosen as permanent **</li>
+        </ul>
+
+    </div>
+    <div class="menu-table">
+        <table id="table1">
+            <tr class="rows">
+                <th></th>
+                <th>Breakfast</th>
+                <th>Lunch</th>
+                <th>Supper</th>
+                <th>Dinner</th>
+            </tr>
+
+
+            <tr class="rows">
+                <th>Monday</th>
+                <td>
+                    <div class="items-edit">
+                        <ul class="brkfst-items menu-items">
+                        </ul>
+                        <button type="button" class="btn1 btn-brkfst">Edit</button>
+                    </div>
+                    <br>
+                    <select name="brkfst" id="brkfst">
+                        <option value="mornin">Select</option>
+                        <option value="poha">Poha</option>
+                        <option value="aloo-Prantha">Aloo Prantha</option>
+                        <option value="paneer-Prantha">Paneer Prantha</option>
+                        <option value="chole-kulche">Chole Kulche</option>
+                        <option value="pav-Bhaji">Pav Bhaji</option>
+                        <option value="gobhi-Parantha">Gobhi Parantha</option>
+                        <option value="pyaz-Parantha">Pyaz Parantha</option>
+                        <option value="aloopyaz-Parantha">Aloo-Pyaz Parantha</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="lunch-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-lunch">Edit</button>
+                    </div>
+                    <br>
+                    <select name="lunch" id="lunch">
+                        <option value="afternoon">Select</option>
+                        <option value="chole">Chole</option>
+                        <option value="rajma">Rajma</option>
+                        <option value="chane">Chane</option>
+                        <option value="kadi">Kadi</option>
+                        <option value="manchurian">Manchurian</option>
+                        <option value="paneer">Paneer</option>
+                        <option value="dal-Makhni">Dal Makhni</option>
+                        <option value="veg-Biryani">Veg Biryani</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="supper-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-supper">Edit</button>
+                    </div>
+                    <br>
+                    <select name="supper" id="supper">
+                        <option value="evenin">Select</option>
+                        <option value="patties">Patties</option>
+                        <option value="samose">Samosa</option>
+                        <option value="rusk">Rusk</option>
+                        <option value="bread-pakoda">Bread Pakoda</option>
+                        <option value="tikki">Tikki</option>
+                        <option value="maggi">Maggi</option>
+                        <option value="macroni">Macroni</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="dinner-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-dinner">Edit</button>
+                    </div>
+                    <br>
+                    <select name="dinner" id="dinner">
+                        <option value="night">Select</option>
+                        <option value="paneer">Paneer</option>
+                        <option value="kofte">Kofte</option>
+                        <option value="kaddu">Kaddu</option>
+                        <option value="bengan">Brinjal</option>
+                        <option value="chicken">Chicken</option>
+                        <option value="anda-curry">Anda Curry</option>
+                        <option value="dry-chole">Dry Chole</option>
+                        <option value="dal-friedrice">Dal Fried-Rice</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr class="rows">
+                <th>Tuesday</th>
+                <td>
+                    <div class="items-edit">
+                    <ul class="brkfst-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-brkfst">Edit</button>
+                    </div>
+                    <br>
+                    <select name="brkfst" id="brkfst">
+                        <option value="mornin">Select</option>
+                        <option value="poha">Poha</option>
+                        <option value="aloo-Prantha">Aloo Prantha</option>
+                        <option value="paneer-Prantha">Paneer Prantha</option>
+                        <option value="chole-kulche">Chole Kulche</option>
+                        <option value="pav-Bhaji">Pav Bhaji</option>
+                        <option value="gobhi-Parantha">Gobhi Parantha</option>
+                        <option value="pyaz-Parantha">Pyaz Parantha</option>
+                        <option value="aloopyaz-Parantha">Aloo-Pyaz Parantha</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="lunch-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-lunch">Edit</button>
+                    </div>
+                    <br>
+                    <select name="lunch" id="lunch">
+                        <option value="afternoon">Select</option>
+                        <option value="chole">Chole</option>
+                        <option value="rajma">Rajma</option>
+                        <option value="chane">Chane</option>
+                        <option value="kadi">Kadi</option>
+                        <option value="manchurian">Manchurian</option>
+                        <option value="paneer">Paneer</option>
+                        <option value="dal-Makhni">Dal Makhni</option>
+                        <option value="veg-Biryani">Veg Biryani</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="supper-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-supper">Edit</button>
+                </div>
+                    <br>
+                    <select name="supper" id="supper">
+                        <option value="evenin">Select</option>
+                        <option value="patties">Patties</option>
+                        <option value="samose">Samosa</option>
+                        <option value="rusk">Rusk</option>
+                        <option value="bread-pakoda">Bread Pakoda</option>
+                        <option value="tikki">Tikki</option>
+                        <option value="maggi">Maggi</option>
+                        <option value="macroni">Macroni</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="dinner-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-dinner">Edit</button>
+                    </div>
+                    <br>
+                    <select name="dinner" id="dinner">
+                        <option value="night">Select</option>
+                        <option value="paneer">Paneer</option>
+                        <option value="kofte">Kofte</option>
+                        <option value="kaddu">Kaddu</option>
+                        <option value="bengan">Brinjal</option>
+                        <option value="chicken">Chicken</option>
+                        <option value="anda-curry">Anda Curry</option>
+                        <option value="dry-chole">Dry Chole</option>
+                        <option value="dal-friedrice">Dal Fried-Rice</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr class="rows">
+                <th>Wednesday</th>
+                <td>
+                    <div class="items-edit">
+                    <ul class="brkfst-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-brkfst">Edit</button>
+                    </div>
+                    <br>
+                    <select name="brkfst" id="brkfst">
+                        <option value="mornin">Select</option>
+                        <option value="poha">Poha</option>
+                        <option value="aloo-Prantha">Aloo Prantha</option>
+                        <option value="paneer-Prantha">Paneer Prantha</option>
+                        <option value="chole-kulche">Chole Kulche</option>
+                        <option value="pav-Bhaji">Pav Bhaji</option>
+                        <option value="gobhi-Parantha">Gobhi Parantha</option>
+                        <option value="pyaz-Parantha">Pyaz Parantha</option>
+                        <option value="aloopyaz-Parantha">Aloo-Pyaz Parantha</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="lunch-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-lunch">Edit</button>
+                    </div>
+                    <br>
+                    <select name="lunch" id="lunch">
+                        <option value="afternoon">Select</option>
+                        <option value="chole">Chole</option>
+                        <option value="rajma">Rajma</option>
+                        <option value="chane">Chane</option>
+                        <option value="kadi">Kadi</option>
+                        <option value="manchurian">Manchurian</option>
+                        <option value="paneer">Paneer</option>
+                        <option value="dal-Makhni">Dal Makhni</option>
+                        <option value="veg-Biryani">Veg Biryani</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="supper-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-supper">Edit</button>
+                    </div>
+                    <br>
+                    <select name="supper" id="supper">
+                        <option value="evenin">Select</option>
+                        <option value="patties">Patties</option>
+                        <option value="samose">Samosa</option>
+                        <option value="rusk">Rusk</option>
+                        <option value="bread-pakoda">Bread Pakoda</option>
+                        <option value="tikki">Tikki</option>
+                        <option value="maggi">Maggi</option>
+                        <option value="macroni">Macroni</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="dinner-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-dinner">Edit</button>
+                    </div>
+                    <br>
+                    <select name="dinner" id="dinner">
+                        <option value="night">Select</option>
+                        <option value="paneer">Paneer</option>
+                        <option value="kofte">Kofte</option>
+                        <option value="kaddu">Kaddu</option>
+                        <option value="bengan">Brinjal</option>
+                        <option value="chicken">Chicken</option>
+                        <option value="anda-curry">Anda Curry</option>
+                        <option value="dry-chole">Dry Chole</option>
+                        <option value="dal-friedrice">Dal Fried-Rice</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr class="rows">
+                <th>Thursday</th>
+                <td>
+                    <div class="items-edit">
+                    <ul class="brkfst-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-brkfst">Edit</button>
+                    </div>
+                    <br>
+                    <select name="brkfst" id="brkfst">
+                        <option value="mornin">Select</option>
+                        <option value="poha">Poha</option>
+                        <option value="aloo-Prantha">Aloo Prantha</option>
+                        <option value="paneer-Prantha">Paneer Prantha</option>
+                        <option value="chole-kulche">Chole Kulche</option>
+                        <option value="pav-Bhaji">Pav Bhaji</option>
+                        <option value="gobhi-Parantha">Gobhi Parantha</option>
+                        <option value="pyaz-Parantha">Pyaz Parantha</option>
+                        <option value="aloopyaz-Parantha">Aloo-Pyaz Parantha</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="lunch-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-lunch">Edit</button>
+                    </div>
+                    <br>
+                    <select name="lunch" id="lunch">
+                        <option value="afternoon">Select</option>
+                        <option value="chole">Chole</option>
+                        <option value="rajma">Rajma</option>
+                        <option value="chane">Chane</option>
+                        <option value="kadi">Kadi</option>
+                        <option value="manchurian">Manchurian</option>
+                        <option value="paneer">Paneer</option>
+                        <option value="dal-Makhni">Dal Makhni</option>
+                        <option value="veg-Biryani">Veg Biryani</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="supper-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-supper">Edit</button>
+                    </div>
+                    <br>
+                    <select name="supper" id="supper">
+                        <option value="evenin">Select</option>
+                        <option value="patties">Patties</option>
+                        <option value="samose">Samosa</option>
+                        <option value="rusk">Rusk</option>
+                        <option value="bread-pakoda">Bread Pakoda</option>
+                        <option value="tikki">Tikki</option>
+                        <option value="maggi">Maggi</option>
+                        <option value="macroni">Macroni</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="dinner-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-dinner">Edit</button>
+                    </div>
+                    <br>
+                    <select name="dinner" id="dinner">
+                        <option value="night">Select</option>
+                        <option value="paneer">Paneer</option>
+                        <option value="kofte">Kofte</option>
+                        <option value="kaddu">Kaddu</option>
+                        <option value="bengan">Brinjal</option>
+                        <option value="chicken">Chicken</option>
+                        <option value="anda-curry">Anda Curry</option>
+                        <option value="dry-chole">Dry Chole</option>
+                        <option value="dal-friedrice">Dal Fried-Rice</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr class="rows">
+                <th>Friday</th>
+                <td>
+                    <div class="items-edit">
+                    <ul class="brkfst-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-brkfst">Edit</button>
+                    </div>
+                    <br>
+                    <select name="brkfst" id="brkfst">
+                        <option value="mornin">Select</option>
+                        <option value="poha">Poha</option>
+                        <option value="aloo Prantha">Aloo Prantha</option>
+                        <option value="paneer-Prantha">Paneer Prantha</option>
+                        <option value="chole-kulche">Chole Kulche</option>
+                        <option value="pav-Bhaji">Pav Bhaji</option>
+                        <option value="gobhi-Parantha">Gobhi Parantha</option>
+                        <option value="pyaz-Parantha">Pyaz Parantha</option>
+                        <option value="aloopyaz-Parantha">Aloo-Pyaz Parantha</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="lunch-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-lunch">Edit</button>
+                    </div>
+                    <br>
+                    <select name="lunch" id="lunch">
+                        <option value="afternoon">Select</option>
+                        <option value="chole">Chole</option>
+                        <option value="rajma">Rajma</option>
+                        <option value="chane">Chane</option>
+                        <option value="kadi">Kadi</option>
+                        <option value="manchurian">Manchurian</option>
+                        <option value="paneer">Paneer</option>
+                        <option value="dal-Makhni">Dal Makhni</option>
+                        <option value="veg-Biryani">Veg Biryani</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="supper-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-supper">Edit</button>
+                    </div>
+                    <br>
+                    <select name="supper" id="supper">
+                        <option value="evenin">Select</option>
+                        <option value="patties">Patties</option>
+                        <option value="samose">Samosa</option>
+                        <option value="rusk">Rusk</option>
+                        <option value="bread-pakoda">Bread Pakoda</option>
+                        <option value="tikki">Tikki</option>
+                        <option value="maggi">Maggi</option>
+                        <option value="macroni">Macroni</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="dinner-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-dinner">Edit</button>
+                    </div>
+                    <br>
+                    <select name="dinner" id="dinner">
+                        <option value="night">Select</option>
+                        <option value="paneer">Paneer</option>
+                        <option value="kofte">Kofte</option>
+                        <option value="kaddu">Kaddu</option>
+                        <option value="bengan">Brinjal</option>
+                        <option value="chicken">Chicken</option>
+                        <option value="anda-curry">Anda Curry</option>
+                        <option value="dry-chole">Dry Chole</option>
+                        <option value="dal-friedrice">Dal Fried-Rice</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr class="rows">
+                <th>Saturday</th>
+                <td>
+                    <div class="items-edit">
+                    <ul class="brkfst-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-brkfst">Edit</button>
+                    </div>
+                    <br>
+                    <select name="brkfst" id="brkfst">
+                        <option value="mornin">Select</option>
+                        <option value="poha">Poha</option>
+                        <option value="aloo-Prantha">Aloo Prantha</option>
+                        <option value="paneer-Prantha">Paneer Prantha</option>
+                        <option value="chole-kulche">Chole Kulche</option>
+                        <option value="pav-Bhaji">Pav Bhaji</option>
+                        <option value="gobhi-Parantha">Gobhi Parantha</option>
+                        <option value="pyaz-Parantha">Pyaz Parantha</option>
+                        <option value="aloopyaz-Parantha">Aloo-Pyaz Parantha</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="lunch-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-lunch">Edit</button>
+                    </div>
+                    <br>
+                    <select name="lunch" id="lunch">
+                        <option value="afternoon">Select</option>
+                        <option value="chole">Chole</option>
+                        <option value="rajma">Rajma</option>
+                        <option value="chane">Chane</option>
+                        <option value="kadi">Kadi</option>
+                        <option value="manchurian">Manchurian</option>
+                        <option value="paneer">Paneer</option>
+                        <option value="dal-Makhni">Dal Makhni</option>
+                        <option value="veg-Biryani">Veg Biryani</option>
+                    </select>
+                </td>
+                <td>-</td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="dinner-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-dinner">Edit</button>
+                    </div>
+                    <br>
+                    <select name="dinner" id="dinner">
+                        <option value="night">Select</option>
+                        <option value="paneer">Paneer</option>
+                        <option value="kofte">Kofte</option>
+                        <option value="kaddu">Kaddu</option>
+                        <option value="bengan">Brinjal</option>
+                        <option value="chicken">Chicken</option>
+                        <option value="anda-curry">Anda Curry</option>
+                        <option value="dry-chole">Dry Chole</option>
+                        <option value="dal-friedrice">Dal Fried-Rie</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr class="rows">
+                <th>Sunday</th>
+                <td>
+                    <div class="items-edit">
+                    <ul class="brkfst-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-brkfst">Edit</button>
+                    </div>
+                    <br>
+                    <select name="brkfst" id="brkfst">
+                        <option value="mornin">Select</option>
+                        <option value="poha">Poha</option>
+                        <option value="aloo-Prantha">Aloo Prantha</option>
+                        <option value="paneer-Prantha">Paneer Prantha</option>
+                        <option value="chole-kulche">Chole Kulche</option>
+                        <option value="pav-Bhaji">Pav Bhaji</option>
+                        <option value="gobhi-Parantha">Gobhi Parantha</option>
+                        <option value="pyaz-Parantha">Pyaz Parantha</option>
+                        <option value="aloopyaz-Parantha">Aloo-Pyaz Parantha</option>
+                    </select>
+                </td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="lunch-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-lunch">Edit</button>
+                    </div>
+                    <br>
+                    <select name="lunch" id="lunch">
+                        <option value="afternoon">Select</option>
+                        <option value="chole">Chole</option>
+                        <option value="rajma">Rajma</option>
+                        <option value="chane">Chane</option>
+                        <option value="kadi">Kadi</option>
+                        <option value="manchurian">Manchurian</option>
+                        <option value="paneer">Paneer</option>
+                        <option value="dal-Makhni">Dal Makhni</option>
+                        <option value="veg-Biryani">Veg Biryani</option>
+                    </select>
+                </td>
+                <td>-</td>
+                <td>
+                    <div class="items-edit">
+                    <ul class="dinner-items menu-items">
+                    </ul>
+                    <button type="button" class="btn1 btn-dinner">Edit</button>
+                    </div>
+                    <br>
+                    <select name="dinner" id="dinner">
+                        <option value="night">Select</option>
+                        <option value="paneer">Paneer</option>
+                        <option value="kofte">Kofte</option>
+                        <option value="kaddu">Kaddu</option>
+                        <option value="bengan">Brinjal</option>
+                        <option value="chicken">Chicken</option>
+                        <option value="anda-curry">Anda Curry</option>
+                        <option value="dry-chole">Dry Chole</option>
+                        <option value="dal-friedrice">Dal Fried-Rice</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="suBmit">
+        <button class="submit-btn" type="submit" onclick="submitted()">Submit</button>
+    </div>
+    <script src="messMenu.js"></script>
+</body>
+</html>
